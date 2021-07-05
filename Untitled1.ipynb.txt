@@ -1,0 +1,48 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled1.ipynb",
+      "provenance": [],
+      "collapsed_sections": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "NWMffFeq2jYi",
+        "outputId": "7f9aed6a-572c-4ebf-cdf8-ce3dfbdfd25c"
+      },
+      "source": [
+        "  \n",
+        "import hashlib\n",
+        "result = hashlib.md5(b'deepak singh ')\n",
+        "  \n",
+        "print(\"The byte equivalent of hash is : \", end =\"\")\n",
+        "print(result.digest())"
+      ],
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "text": [
+            "The byte equivalent of hash is : b'a\\x99\\t\\x8e\\xab%\\xf9\\xef\\xcc]\\xb3s(\\xb1\\x1e4'\n"
+          ],
+          "name": "stdout"
+        }
+      ]
+    }
+  ]
+}
